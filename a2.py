@@ -5,7 +5,7 @@ import numpy as np
 # 1. LOAD RAW DATA (skip corrupted lines)
 
 df = pd.read_csv(
-    "/Users/architap/Downloads/redditSubmissions.csv",
+    "redditSubmissions.csv",
     on_bad_lines='skip',
     engine='python'
 )
